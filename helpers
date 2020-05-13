@@ -1,0 +1,7 @@
+# Plot
+plot [180:240] f(x) title 'Ajuste Gaussiano' lt rgb 'blue', '137Cs_cal2.asc' u 1:2 title '^1^3^7Cs' lt rgb 'black'; set xlabel "Canal"; set ylabel "Cuentas"
+
+# Adjusting
+f(x)=A*exp(-(x-b)**2/(2*c**2))+d;
+A=3000;b=270;c=1;d=0
+fit [240:300] f(x) '137Cs_cal2.asc' u 1:2 via A,b,c,d

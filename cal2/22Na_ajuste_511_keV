@@ -1,0 +1,42 @@
+
+
+*******************************************************************************
+Tue Apr 28 18:31:26 2020
+
+
+FIT:    data read from '22Na_cal2.asc'  u 1:2
+        format = x:z
+        x range restricted to [180.000 : 240.000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=A*exp(-(x-b)**2/(2*c**2))+d
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'd' is zero.
+iter      chisq       delta/lim  lambda   A             b             c             d            
+   0 2.3642826166e+08   0.00e+00  6.31e+04    5.000000e+03   2.100000e+02   1.000000e+00   1.000000e-30
+   8 5.7517168592e+05  -3.43e-01  6.31e-04    4.928686e+03   2.110625e+02   6.485481e+00   2.106254e+02
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 575172
+rel. change during last iteration : -3.43055e-06
+
+degrees of freedom    (FIT_NDF)                        : 57
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 100.453
+variance of residuals (reduced chisquare) = WSSR/ndf   : 10090.7
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 4928.69          +/- 38.82        (0.7876%)
+b               = 211.062          +/- 0.05515      (0.02613%)
+c               = 6.48548          +/- 0.06604      (1.018%)
+d               = 210.625          +/- 19.51        (9.264%)
+
+correlation matrix of the fit parameters:
+                A      b      c      d      
+A               1.000 
+b               0.018  1.000 
+c              -0.255 -0.014  1.000 
+d              -0.355  0.000 -0.550  1.000 

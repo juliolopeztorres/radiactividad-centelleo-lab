@@ -1,0 +1,42 @@
+
+
+*******************************************************************************
+Sat May  2 11:57:30 2020
+
+
+FIT:    data read from '207Bi_cal1.Spe' u 1:2
+        format = x:z
+        x range restricted to [500.000 : 650.000]
+        #datapoints = 151
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=A*exp(-(x-b)**2/(2*c**2))+d
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'd' is zero.
+iter      chisq       delta/lim  lambda   A             b             c             d            
+   0 4.2974875368e+07   0.00e+00  2.14e+04    1.000000e+03   5.700000e+02   1.000000e+00   1.000000e-30
+  10 7.7994220822e+04  -1.91e-02  2.14e-06    1.032944e+03   5.779559e+02   1.927151e+01   8.641320e+01
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 77994.2
+rel. change during last iteration : -1.90582e-07
+
+degrees of freedom    (FIT_NDF)                        : 147
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 23.0342
+variance of residuals (reduced chisquare) = WSSR/ndf   : 530.573
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 1032.94          +/- 5.364        (0.5193%)
+b               = 577.956          +/- 0.104        (0.018%)
+c               = 19.2715          +/- 0.1355       (0.703%)
+d               = 86.4132          +/- 3.3          (3.819%)
+
+correlation matrix of the fit parameters:
+                A      b      c      d      
+A               1.000 
+b               0.015  1.000 
+c              -0.119 -0.012  1.000 
+d              -0.436  0.000 -0.641  1.000 
